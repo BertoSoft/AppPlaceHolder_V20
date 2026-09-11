@@ -5,5 +5,41 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.AppPlaceHolder_V20" parent="Base.Theme.AppPlaceHolder_V20" />
+    <!-- Estilo Tarjetas del Menú -->
+    <style name="TarjetaMenu" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="rippleColor">?attr/colorControlHighlight</item>
+    </style>
+
+    <!-- Estilo Texto -->
+    <style name="TextoTitulo" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:alignmentMode">alignBounds</item>
+    </style>
+
+    <style name="Texto" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:alignmentMode">alignBounds</item>
+    </style>
+
+    <style name="TextoBold" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:alignmentMode">alignBounds</item>
+    </style>
+
+    <style name="Texto16Bold" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:alignmentMode">alignBounds</item>
+    </style>
+
 </resources>
