@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
@@ -19,10 +20,34 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="5"
+                android:layout_weight="3"
                 android:gravity="end"
                 android:layout_marginEnd="8dp"
                 android:text="id: "
+                style="@style/Texto"/>
+            <TextView
+                android:id="@+id/tvUserId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="1 "
+                style="@style/Texto"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="end"
+                android:layout_marginEnd="8dp"
+                android:text="User Id: "
                 style="@style/Texto"/>
             <TextView
                 android:id="@+id/tvId"
@@ -43,37 +68,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="5"
+                android:layout_weight="3"
                 android:gravity="end"
                 android:layout_marginEnd="8dp"
-                android:text="post Id: "
+                android:text="Title: "
                 style="@style/Texto"/>
             <TextView
-                android:id="@+id/tvPostId"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="start"
-                android:text="1 "
-                style="@style/Texto"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="5"
-                android:gravity="end"
-                android:layout_marginEnd="8dp"
-                android:text="Name: "
-                style="@style/Texto"/>
-            <TextView
-                android:id="@+id/tvName"
+                android:id="@+id/tvTitle"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -91,13 +92,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="5"
+                android:layout_weight="3"
                 android:gravity="end"
                 android:layout_marginEnd="8dp"
-                android:text="eMail: "
+                android:text="Completed: "
                 style="@style/Texto"/>
             <TextView
-                android:id="@+id/tvMail"
+                android:id="@+id/tvCompleted"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -107,29 +108,6 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="5"
-                android:gravity="end"
-                android:layout_marginEnd="8dp"
-                android:text="Body: "
-                style="@style/Texto"/>
-            <TextView
-                android:id="@+id/tvBody"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="start"
-                android:text="kljhjdfshkjhsd dashjk hdsfa kjhsfd j dfshjh   dsfgffcdhgfdhghdfhnchngf"
-                style="@style/Texto"/>
-
-        </LinearLayout>
 
     </LinearLayout>
 

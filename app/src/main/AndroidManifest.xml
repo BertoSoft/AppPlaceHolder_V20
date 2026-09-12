@@ -29,6 +29,10 @@
             android:name=".modulos.comment.ui.Comments"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".modulos.todos.ui.Todos"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
